@@ -1,0 +1,98 @@
+
+#menu {
+   display: flex;
+    justify-content: space-around;
+
+}
+#mainTitle {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    color: darkred;
+}
+#addbar {
+    display: grid;
+    grid-template-columns: 1, 1fr;
+    justify-content: center;
+    background-color: gray;
+
+
+}
+
+#Ads {
+    font-size: 30px;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    grid-auto-rows: minmax(100px,auto);
+}
+.wrapper > div{
+    background: silver;
+    padding: 1em;
+}
+#menu {
+    background: silver;
+    font-size: 30px;
+    color: darkred;
+
+}
+#menu > li{
+    color: darkred;
+}
+.nested  {
+    color: darkred;
+}
+#footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 20px;
+    justify-content: center;
+    align-content: space-around;
+    background-color: gray;
+    gap: 1em;
+
+}
+#specificItem {
+display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+
+}
+#specificItem > div:nth-child(even) {
+    background-color: silver;
+}
+.button {
+    background-color: darkred;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#wantedItems #wantedItem {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: silver;
+}
+.CheckoutButton {
+    background-color: darkred;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+
+#endOfTheLine {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+
+}
+
